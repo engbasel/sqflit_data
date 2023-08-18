@@ -6,6 +6,7 @@ class SQL_db_Model {
   Future<Database?> get db async {
     if (_db == null) {
       _db = await initialdb();
+
       return _db;
     } else {
       return _db;

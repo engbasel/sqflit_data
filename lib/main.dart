@@ -11,9 +11,6 @@ class sqlapp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('sql'),
-        // ),
         body: Homescreen(),
       ),
     );
